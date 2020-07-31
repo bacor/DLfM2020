@@ -1,8 +1,6 @@
 Plainchant in Python
 ====================
 
-![Two case studies: melodic contour and differentia-antiphon connections](figures/teaser/teaser.jpg?raw=true "The two case studies")
-
 This repository contains all code for the two case studies in the paper 
 'Plainchant in Python: chant21 and two large corpora'
 submitted to the 
@@ -12,6 +10,8 @@ In that paper we also present the
 [GregobaseCorpus](https://github.com/bacor/gregobasecorpus) 
 and the Python package [Chant21](https://github.com/bacor/chant21).
 
+
+<img src="figures/teaser/teaser.jpg?raw=true" width="48" title="Two case studies: melodic contour and differentia-antiphon connections">
 
 Citation
 --------
