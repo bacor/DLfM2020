@@ -3,7 +3,7 @@ Plainchant in Python
 
 ![Two case studies: melodic contour and differentia-antiphon connections](figures/teaser/teaser.jpg?raw=true "The two case studies")
 
-This repository contains all code for the analyses the paper 
+This repository contains all code for the two case studies in the paper 
 'Plainchant in Python: chant21 and two large corpora'
 submitted to the 
 [Digital Libraries for Musicology 2020](https://dlfm.web.ox.ac.uk/) conference.
