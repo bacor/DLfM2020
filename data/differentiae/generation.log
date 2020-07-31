@@ -1,0 +1,68 @@
+INFO 31-07-20 11:08:48 Start generating the differentia-antiphon connections.
+INFO 31-07-20 11:08:52  . Filter Chants Without Volpiano:
+INFO 31-07-20 11:08:52  . Exclude all chants with an empty volpiano field
+INFO 31-07-20 11:08:52  .  > 87.20% removed (433443 out of 497071; 63628 remain)
+INFO 31-07-20 11:08:52  . Filter Chants Without Notes:
+INFO 31-07-20 11:08:52  . Exclude all chants without notes
+INFO 31-07-20 11:08:52  .  > 2.87% removed (1825 out of 63628; 61803 remain)
+INFO 31-07-20 11:08:52  . Filter Chants Without Simple Mode:
+INFO 31-07-20 11:08:52  . Include only chants with simple modes: 1-8, not transposed
+INFO 31-07-20 11:08:52  .  * include_transposed=False
+INFO 31-07-20 11:08:52  .  > 23.02% removed (14227 out of 61803; 47576 remain)
+INFO 31-07-20 11:08:52  . Filter Chants Without Full Text:
+INFO 31-07-20 11:08:52  . Filter chants without full text
+INFO 31-07-20 11:08:52  .  > 20.65% removed (9823 out of 47576; 37753 remain)
+INFO 31-07-20 11:08:52  . Filter Chants Where Incipit Is Full Text:
+INFO 31-07-20 11:08:52  . Filter chants whose incipit is identical to the full text
+INFO 31-07-20 11:08:52  .  > 14.59% removed (5507 out of 37753; 32246 remain)
+INFO 31-07-20 11:08:52  . Filter Chants By Genre:
+INFO 31-07-20 11:08:52  . Include only chants with a certain genre
+INFO 31-07-20 11:08:52  .  * include=['genre_a']
+INFO 31-07-20 11:08:52  .  > 52.06% removed (16787 out of 32246; 15459 remain)
+INFO 31-07-20 11:08:53  . Filter Chants Not Ending On Euouae:
+INFO 31-07-20 11:08:53  . Exclude all chants that don't end on variants of EUOUAE
+INFO 31-07-20 11:08:53  .  > 54.00% removed (8348 out of 15459; 7111 remain)
+INFO 31-07-20 11:08:53  . Filter Chants Not Starting With G Clef:
+INFO 31-07-20 11:08:53  . Exclude chants that do not start with a G clef
+INFO 31-07-20 11:08:53  .  > 0.04% removed (3 out of 7111; 7108 remain)
+INFO 31-07-20 11:08:53  . Filter Chants With F Clef:
+INFO 31-07-20 11:08:53  . Exclude chants that contain an F clef
+INFO 31-07-20 11:08:53  .  > 0.00% removed (0 out of 7108; 7108 remain)
+INFO 31-07-20 11:08:53  . Filter Chants With Nonvolpiano Chars:
+INFO 31-07-20 11:08:53  . Exclude all chants with non-volpiano characters
+INFO 31-07-20 11:08:53  .  > 0.01% removed (1 out of 7108; 7107 remain)
+INFO 31-07-20 11:08:53  . Filter Chants Without Word Boundary:
+INFO 31-07-20 11:08:53  . Only include chants with '---' in their volpiano
+INFO 31-07-20 11:08:53  .  > 0.07% removed (5 out of 7107; 7102 remain)
+ERROR 31-07-20 11:09:03 chant_009359 could not be parsed: Expected note or liquescent or flat or natural at position (1, 90) => '--g---jk-7*--h--h---g'.
+WARNING 31-07-20 11:09:11 Skipping chant_021304; antiphon opening has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:09:12 Skipping chant_021345; antiphon opening has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:09:12 Skipping chant_021348; antiphon opening has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:09:12 Skipping chant_021438; antiphon opening has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:09:13 Skipping chant_021568; antiphon opening has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:09:15 Skipping chant_027154; differentiae has length 0, which is shorter than min_length=3
+ERROR 31-07-20 11:09:27 chant_033945 could not be parsed: Expected note or liquescent or flat or natural at position (1, 87) => '-g---4---6*---6---3--'.
+WARNING 31-07-20 11:10:24 Skipping chant_067581; differentiae has length 0, which is shorter than min_length=3
+ERROR 31-07-20 11:10:35 chant_079852 could not be parsed: Expected note or liquescent or flat or natural at position (1, 126) => '-g---4---6*---7---6--'.
+ERROR 31-07-20 11:11:22 chant_106019 could not be parsed: Expected note or liquescent or flat or natural at position (1, 67) => 'hj---g---6*---67---hk'.
+ERROR 31-07-20 11:11:39 chant_125074 could not be parsed: Expected '-' or EOF at position (1, 155) => 'j--j------*k---k--j--'.
+ERROR 31-07-20 11:11:43 chant_126310 could not be parsed: Expected '[^\}]+' at position (1, 87) => 'esponden {*} dixerunt'.
+ERROR 31-07-20 11:11:49 chant_130231 could not be parsed: Expected note or liquescent or flat or natural at position (1, 66) => '-g---4---6*---6---3--'.
+ERROR 31-07-20 11:12:27 chant_155280 could not be parsed: Expected note or liquescent or flat or natural at position (1, 57) => '-de--e---6*6---gf--ed'.
+ERROR 31-07-20 11:12:41 chant_165654 could not be parsed: Expected note or liquescent or flat or natural at position (1, 63) => 'k--kjk---6*6---k--k--'.
+WARNING 31-07-20 11:13:01 Skipping chant_184530; differentiae has length 0, which is shorter than min_length=3
+ERROR 31-07-20 11:13:15 chant_197128 could not be parsed: Expected neume_boundary or syllable_boundary or word_boundary or '-' or EOF at position (1, 48) => 'l---l---k7*kjh--j--hj'.
+WARNING 31-07-20 11:13:44 Skipping chant_228837; differentiae has length 0, which is shorter than min_length=3
+WARNING 31-07-20 11:14:22 Skipping chant_264608; differentiae has length 0, which is shorter than min_length=3
+ERROR 31-07-20 11:14:54 chant_292207 could not be parsed: Expected '-' or EOF at position (1, 91) => '--d7------*ghkjhg-hg-'.
+ERROR 31-07-20 11:15:28 chant_317349 could not be parsed: Expected '[^\}]+' at position (1, 7) => 'Nemo {*} | Seuoua'.
+ERROR 31-07-20 11:15:47 chant_330213 could not be parsed: Expected '-' or EOF at position (1, 98) => 'g--g------*fj--jh---g'.
+ERROR 31-07-20 11:15:59 chant_336943 could not be parsed: Expected barline or column_break or page_break or line_break or note or liquescent or flat or natural or '-' or EOF at position (1, 24) => '-de-efe-e-*3-d-e-g-h-'.
+ERROR 31-07-20 11:16:58 chant_381693 could not be parsed: Expected '[^\}]+' at position (1, 36) => 'oc mundo {*} | Seuoua'.
+WARNING 31-07-20 11:18:06 Skipping chant_427774; differentiae has length 0, which is shorter than min_length=3
+ERROR 31-07-20 11:18:18 chant_437640 could not be parsed: Expected neume_boundary or syllable_boundary or word_boundary or '-' or EOF at position (1, 18) => '-ddc---f77*g---fh--h-'.
+ERROR 31-07-20 11:18:50 chant_460479 could not be parsed: Expected note or liquescent or flat or natural at position (1, 63) => '-fe--d---6*---6---g--'.
+ERROR 31-07-20 11:18:54 chant_463622 could not be parsed: Expected syllable_boundary or word_boundary or '-' or EOF at position (1, 77) => '-gh--g---3*1---f--f7-'.
+ERROR 31-07-20 11:19:27 chant_487949 could not be parsed: Expected ipsum or word or tilda or word or '{' or '#' or barline or EOF at position (1, 74) => ' terram | *[V]enerunt'.
+INFO 31-07-20 11:19:39 Stored connections to data/differentiae/connections.csv
+INFO 31-07-20 11:19:39 md5 checksum: cbfa906ae90c07eae5f8089b47e23b6d

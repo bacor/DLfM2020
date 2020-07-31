@@ -1,0 +1,16 @@
+# Exclude the actual datasets
+datasets/
+
+# Various
+tmp/
+notebooks/playground
+figures/fig01/media
+*.afdesign
+
+# Python
+env/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
