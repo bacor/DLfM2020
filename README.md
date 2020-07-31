@@ -42,13 +42,30 @@ All contours can be found in CSV files with the following columns:
   - `phrase_length` the length of the phrase in number of notes
   - `phrase_duration` the duration of the phrase in quarternotes
   - `0...49` (midi) pitch values sampled at 50 equally spaces positions in the phrase.
-
 - `notebooks/`: contains all the notebooks used to generate the figures
 - `figures/`: the figures in the paper. The graphs were always generated using
 Jupyter notebooks, but finalized in Affinity Designer.
 - `src/`: contains the code for generating the data (contours and connections).
 - `tests/`: some unittests of the code in the `src` directory.
+- `datasets/`: This directory should contain the corpora used. We have not 
+included the corpora as they can be easily downloaded: here are the links to [CantusCorpus v0.1](https://github.com/bacor/cantuscorpus/releases/tag/v0.1)
+and [GregoBaseCorpus v0.4](https://github.com/bacor/gregobasecorpus/releases/tag/v0.4).
+After downloading the datasets, place them in a directory named `datasets`.
+It should now have the following structure:
 
+  ```
+  - datasets/
+    - gregobasecorpus
+      - gabc
+        - 00001.gabc
+        - 00002.gabc
+        - ..
+    - cantuscorpus
+      - csv
+        - chant.csv
+        - feast.csv
+        - ..
+  ```
 
 Python setup
 ------------
@@ -71,35 +88,22 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-You should then be able to run the Jupyter notebooks.
+You should then be able to run the Jupyter notebooks: 
+
+```bash
+cd notebooks
+jupyter lab
+```
+
+We have tested all this: installing and running all code from scratch worked as expected.
 
 Generating the data
 -------------------
 
-We have included the data used in the case studies, but for completeness sake,
-we here document how to reproduce those datasets from scratch.
-Note that we have not included the original corpora as these can be easily 
-downloaded:
-
-- [CantusCorpus v0.1](https://github.com/bacor/cantuscorpus/releases/tag/v0.1)
-- [GregoBaseCorpus v0.4](https://github.com/bacor/gregobasecorpus/releases/tag/v0.4)
-
-After downloading the datasets, place them in a directory named `datasets`.
-It should now have the following structure:
-
-```
-- datasets/
-  - gregobasecorpus
-    - gabc
-      - 00001.gabc
-      - 00002.gabc
-      - ..
-  - cantuscorpus
-    - csv
-      - chant.csv
-      - feast.csv
-      - ..
-```
+We have already included the data used in the case studies, but for completeness 
+sake, we also document here how to reproduce those datasets from scratch.
+Please make sure that you have downloaded the corpora and placed them in the
+directory `datasets/`, as described above. 
 
 The script `src/generate_contours.py` is used to generate the contours used in 
 case study 1; the script `src/generate-differentiae.py` generates the 
