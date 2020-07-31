@@ -24,6 +24,8 @@ Our analyses of the CantusCorpus suggest that this relation differs across
 modes, and is fairly predictable, but not as predictable as the differentiae 
 themselves.
 
+---
+
 Repository structure 
 --------------------
 
