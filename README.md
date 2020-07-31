@@ -10,8 +10,19 @@ In that paper we also present the
 [GregobaseCorpus](https://github.com/bacor/gregobasecorpus) 
 and the Python package [Chant21](https://github.com/bacor/chant21).
 
+----
 
 <img src="figures/teaser/teaser.jpg?raw=true" width="500" title="Two case studies: melodic contour and differentia-antiphon connections">
+
+**Main findings.**
+The first case study we discuss in the paper shows that melodic contours of 
+phrases in the GregoBaseCorpus are on average arch shaped, confirming the 
+so-called *melodic arch hypothesis*. The second case
+study addresses a particular problem in chant scholarship: the connection between
+differentiae at the end of psalms, and the opening of the repeated antiphon.
+Our analyses of the CantusCorpus suggest that this relation differs across 
+modes, and is fairly predictable, but not as predictable as the differentiae 
+themselves.
 
 Citation
 --------
