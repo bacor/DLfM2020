@@ -11,7 +11,7 @@ In that paper we also present the
 and the Python package [Chant21](https://github.com/bacor/chant21).
 
 
-<img src="figures/teaser/teaser.jpg?raw=true" width="48" title="Two case studies: melodic contour and differentia-antiphon connections">
+<img src="figures/teaser/teaser.jpg?raw=true" width="500" title="Two case studies: melodic contour and differentia-antiphon connections">
 
 Citation
 --------
