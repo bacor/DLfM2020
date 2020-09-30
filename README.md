@@ -2,8 +2,9 @@ Plainchant in Python
 ====================
 
 This repository contains all code for the two case studies in the paper 
-'Plainchant in Python: chant21 and two large corpora'
-submitted to the 
+['Plainchant in Python: chant21 and two large corpora'](https://doi.org/10.1145/3424911.3425514)
+([pdf](paper/dlfm2020.pdf))
+presented at the
 [Digital Libraries for Musicology 2020](https://dlfm.web.ox.ac.uk/) conference.
 In that paper we also present the 
 [CantusCorpus](https://github.com/bacor/cantuscorpus), 
@@ -117,3 +118,12 @@ $ python -m src.generate_differentiae.py
 ```
 
 This regenerates the `data/` directory and its contents.
+
+Citation
+--------
+
+Bas Cornelissen, Willem Zuidema, and John Ashley Burgoyne. 2020. 
+Studying Large Plainchant Corpora Using chant21. 
+In *7th International Conference on Digital Libraries for Musicology.* 
+ACM, New York, NY, USA, 5 pages.
+[https://doi.org/10.1145/3424911.3425514](https://doi.org/10.1145/3424911.3425514)
