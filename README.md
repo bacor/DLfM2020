@@ -1,8 +1,8 @@
-Plainchant in Python
-====================
+Studying Large Plainchant Corpora Using chant21
+===============================================
 
 This repository contains all code for the two case studies in the paper 
-['Plainchant in Python: chant21 and two large corpora'](https://doi.org/10.1145/3424911.3425514)
+['Studying Large Plainchant Corpora Using chant21'](https://doi.org/10.1145/3424911.3425514)
 ([pdf](paper/dlfm2020.pdf))
 presented at the
 [Digital Libraries for Musicology 2020](https://dlfm.web.ox.ac.uk/) conference.
