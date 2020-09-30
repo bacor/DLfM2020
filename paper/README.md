@@ -1,4 +1,8 @@
 
+# Author copy
+
+ACM asks us to include something like this:
+
 © Cornelissen, Zuidema & Burgoyne 2020. 
 This is the author’s version of the work. It is posted here for your personal 
 use. Not for redistribution. The definitive version was published as:
