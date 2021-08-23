@@ -1,5 +1,5 @@
 chant21==0.4.6
-jupyterlab==2.2.2
+jupyterlab==2.2.10
 matplotlib==3.3.0
 music21==5.7.2
 numpy==1.19.1
